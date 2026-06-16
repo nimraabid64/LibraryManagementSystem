@@ -2,7 +2,8 @@ public class User {
     String name;
     String email;
 
-    public void login() {
-        System.out.println("User Logged In");
-    }
+    public void createUser() {}
+    public void readUser() {}
+    public void updateUser() {}
+    public void deleteUser() {}
 }
