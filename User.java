@@ -6,4 +6,9 @@ public class User {
     public void readUser() {}
     public void updateUser() {}
     public void deleteUser() {}
+    public void createUser() {
+    if(name == null || name.isEmpty()) {
+        System.out.println("Invalid Name");
+    }
+}
 }
